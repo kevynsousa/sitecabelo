@@ -1,0 +1,142 @@
+header{
+    background-color: rgb(209, 204, 204);
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+
+}
+nav{ position: absolute;
+    top: 110px;;
+    right: 0;}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+   
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(161, 0, 0);
+    
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+   border: 2px solid black;
+   border-radius: 10px 40px 40px 40px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos-preço{
+    font-size:22px ;
+    font-weight:bold ;
+    margin-top: 20px;
+}
+.produtos-descriçao{
+    font-size: 18px;
+}
+.produtos li:hover{
+    
+    border: 2px solid rgb(161, 0, 0);
+    
+    }
+.produtos li:active{
+    color: brown;
+    border-radius: 40px 80px 80px 80px;
+    
+}
+.produtos li:hover h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.rodape{
+    background: url("bg.jpg"); 
+    text-align: center;
+    padding: 40px 0;
+}
+.rodape img{
+    
+    width: 100px;
+}
+.rodape p{
+    color: aliceblue;
+    font-size: 13px;
+    margin: 20px 0;
+    
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label , form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.imput-padrão{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+    
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: rgb(255, 119, 0);
+    transform: scale(1.1);
+}
+table {
+margin: 20px 0 40px 0;
+}
+thead{
+    background: rgb(72, 72, 72);
+    color: aliceblue;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid black;
+    padding: 8px 15px;
+    
+}
